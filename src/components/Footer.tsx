@@ -28,7 +28,7 @@ const Footer = () => {
               Terms of Service
             </a>
             <a
-              href="#"
+              href="mailto:dave@eatsure.app"
               className="text-muted-foreground hover:text-foreground transition-colors text-sm"
             >
               Contact
