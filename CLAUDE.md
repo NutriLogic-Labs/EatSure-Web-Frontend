@@ -18,6 +18,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 This is a Vite + React + TypeScript application using shadcn/ui components and Tailwind CSS.
 
 ### Tech Stack
+
 - **Build**: Vite with React SWC plugin
 - **UI**: shadcn/ui (Radix UI primitives) + Tailwind CSS
 - **Routing**: React Router v6
@@ -40,7 +41,8 @@ This is a Vite + React + TypeScript application using shadcn/ui components and T
 
 ### Adding Routes
 
-Add new routes in `src/App.tsx` **above** the catch-all ` "*" ` route:
+Add new routes in `src/App.tsx` **above** the catch-all `"*"` route:
+
 ```tsx
 <Route path="/your-path" element={<YourPage />} />
 ```
