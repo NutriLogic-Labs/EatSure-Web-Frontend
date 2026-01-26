@@ -1,5 +1,5 @@
 #!/usr/bin/env node
- 
+
 // @ts-nocheck
 'use strict'
 
@@ -15496,7 +15496,6 @@ function arg(
     }
 
     if (wholeArg.length > 1 && wholeArg[0] === '-') {
-       
       const separatedArguments =
         wholeArg[1] === '-' || wholeArg.length === 2
           ? [wholeArg]
@@ -15504,7 +15503,6 @@ function arg(
               .slice(1)
               .split('')
               .map(a => `-${a}`)
-       
 
       for (let j = 0; j < separatedArguments.length; j++) {
         const arg = separatedArguments[j]
@@ -15545,9 +15543,7 @@ function arg(
               argv[i + 1][0] === '-' &&
               !(
                 argv[i + 1].match(/^-?\d*(\.(?=\d))?\d*$/) &&
-                (type === Number ||
-                   
-                  (typeof BigInt !== 'undefined' && type === BigInt))
+                (type === Number || (typeof BigInt !== 'undefined' && type === BigInt))
               ))
           ) {
             const extended = originalArgName === argName ? '' : ` (alias for ${argName})`
