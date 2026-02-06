@@ -64,7 +64,7 @@ const Footer = () => {
 
         <div className="mt-10 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} EatSure. All rights reserved. Not affiliated with FDA or
+            © {new Date().getFullYear()} NutriLogic Labs Inc. All rights reserved. Not affiliated with FDA or
             USDA.
           </p>
           <p className="text-sm text-muted-foreground mt-2">
