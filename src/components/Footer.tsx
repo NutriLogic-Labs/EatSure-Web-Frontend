@@ -67,6 +67,9 @@ const Footer = () => {
             © {new Date().getFullYear()} EatSure. All rights reserved. Not affiliated with FDA or
             USDA.
           </p>
+          <p className="text-sm text-muted-foreground mt-2">
+            Built by NutriLogic Labs with ❤️ in Chicago
+          </p>
         </div>
       </div>
     </footer>
